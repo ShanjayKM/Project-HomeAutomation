@@ -1,0 +1,38 @@
+BEGIN TRANSACTION;
+CREATE TABLE User(Id integer PRIMARY KEY, Name text);
+INSERT INTO User VALUES(1,'Light1');
+INSERT INTO User VALUES(2,'Light2');
+INSERT INTO User VALUES(3,'Light3');
+INSERT INTO User VALUES(4,'Light4');
+INSERT INTO User VALUES(5,'Light5');
+INSERT INTO User VALUES(6,'Light6');
+INSERT INTO User VALUES(7,'Light7');
+INSERT INTO User VALUES(8,'Light8');
+INSERT INTO User VALUES(9,'Light9');
+INSERT INTO User VALUES(10,'Light10');
+INSERT INTO User VALUES(11,'Light11');
+INSERT INTO User VALUES(12,'Light12');
+INSERT INTO User VALUES(13,'Light13');
+INSERT INTO User VALUES(14,'Light14');
+INSERT INTO User VALUES(15,'Light15');
+INSERT INTO User VALUES(16,'Light16');
+COMMIT;
+SELECT * FROM User;
+
+$sqlite3 database.sdb < main.sql
+1|Light1
+2|Light2
+3|Light3
+4|Light4
+5|Light5
+6|Light6
+7|Light7
+8|Light8
+9|Light9
+10|Light10
+11|Light11
+12|Light12
+13|Light13
+14|Light14
+15|Light15
+16|Light16

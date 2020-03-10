@@ -1,0 +1,23 @@
+BEGIN TRANSACTION;
+CREATE TABLE User(Id integer PRIMARY KEY, Name text);
+INSERT INTO User VALUES(1,'Light1');
+INSERT INTO User VALUES(2,'Light2');
+INSERT INTO User VALUES(3,'Light3');
+INSERT INTO User VALUES(4,'Light4');
+INSERT INTO User VALUES(5,'Light5');
+INSERT INTO User VALUES(6,'Light6');
+INSERT INTO User VALUES(7,'Light7');
+INSERT INTO User VALUES(8,'Light8');
+COMMIT;
+SELECT * FROM User;
+
+
+$sqlite3 database.sdb < main.sql
+1|Light1
+2|Light2
+3|Light3
+4|Light4
+5|Light5
+6|Light6
+7|Light7
+8|Light8
