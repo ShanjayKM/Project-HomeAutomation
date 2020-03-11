@@ -1,0 +1,95 @@
+##
+## Main arguments, all optional
+##
+title: 8 lights
+widget_dimensions: [120, 120]
+widget_margins: [5, 5]
+columns: 4
+
+light1:
+    widget_type: switch
+    title: LIGHT 1
+    entity: light.off_light1
+
+light2:
+    widget_type: switch
+    title: LIGHT 2
+    entity: light.off_light2
+    
+light3:
+    widget_type: switch
+    title: LIGHT 3
+    entity: light.off_light3
+    
+light4:
+    widget_type: switch
+    title: LIGHT 4
+    entity: light.off_light4
+    
+light5:
+    widget_type: switch
+    title: LIGHT 5
+    entity: light.off_light5
+
+light6:
+    widget_type: switch
+    title: LIGHT 6
+    entity: light.off_light6
+    
+light7:
+    widget_type: switch
+    title: LIGHT 7
+    entity: light.off_light7
+    
+light8:
+    widget_type: switch
+    title: LIGHT 8
+    entity: light.off_light8
+
+light9:
+    widget_type: switch
+    title: LIGHT 9
+    entity: light.off_light9
+
+light10:
+    widget_type: switch
+    title: LIGHT 10
+    entity: light.off_light10
+    
+light11:
+    widget_type: switch
+    title: LIGHT 11
+    entity: light.off_light11
+    
+light12:
+    widget_type: switch
+    title: LIGHT 12
+    entity: light.off_light12
+
+light13:
+    widget_type: switch
+    title: LIGHT 13
+    entity: light.off_light13
+    
+light14:
+    widget_type: switch
+    title: LIGHT 14
+    entity: light.off_light14
+
+light15:
+    widget_type: switch
+    title: LIGHT 15
+    entity: light.off_light15
+    
+light16:
+    widget_type: switch
+    title: LIGHT 16
+    entity: light.off_light16
+    
+
+layout:
+    - empty: 1
+    - light1(1x1),light2(1x1),light3(1x1),light4(1x1)
+    - light5(1x1),light6(1x1),light7(1x1),light8(1x1)
+    - light9(1x1),light10(1x1),light11(1x1),light12(1x1)
+    - light13(1x1),light14(1x1),light15(1x1),light16(1x1)

@@ -1,0 +1,153 @@
+title: QBITRONICS
+views:
+  - badges: []
+    cards:
+      - entity: light.off_light1
+        hold_action:
+          action: more-info
+        name: LIGHT1
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light2
+        hold_action:
+          action: more-info
+        name: LIGHT2
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light3
+        hold_action:
+          action: more-info
+        name: LIGHT3
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light4
+        hold_action:
+          action: more-info
+        name: LIGHT4
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light5
+        hold_action:
+          action: more-info
+        name: LIGHT5
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light6
+        hold_action:
+          action: more-info
+        name: LIGHT6
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light7
+        hold_action:
+          action: more-info
+        name: LIGHT7
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light8
+        hold_action:
+          action: more-info
+        name: LIGHT8
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light9
+        hold_action:
+          action: more-info
+        name: LIGHT9
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light10
+        hold_action:
+          action: more-info
+        name: LIGHT10
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light11
+        hold_action:
+          action: more-info
+        name: LIGHT11
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light12
+        hold_action:
+          action: more-info
+        name: LIGHT12
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light13
+        hold_action:
+          action: more-info
+        name: LIGHT13
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light14
+        hold_action:
+          action: more-info
+        name: LIGHT14
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light15
+        hold_action:
+          action: more-info
+        name: LIGHT15
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+      - entity: light.off_light16
+        hold_action:
+          action: more-info
+        name: LIGHT16
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+    icon: ''
+    panel: false
+    path: 16-lights
+    theme: default
+    title: 16 LIGHTS
